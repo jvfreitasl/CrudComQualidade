@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./core/crud.js",
-    "dev": "nodemon ./core/crud.js",
+    "start:crud": "npx ts-node ./core/crud.ts",
+    "dev:crud": "nodemon --ext ts,tsx --exec npm run start:crud",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +13,11 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.0",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.4",
+    "uuid": "^10.0.0"
   }
 }

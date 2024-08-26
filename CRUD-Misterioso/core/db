@@ -1,1 +1,15 @@
-Hoje eu preciso gravar aulas!
+{
+  "todos": [
+    {
+      "date": "2024-08-26T22:41:00.110Z",
+      "content": "Primeira TODO",
+      "done": false
+    },
+    {
+      "date": "2024-08-26T22:41:00.112Z",
+      "content": "Segunda TODO",
+      "done": false
+    }
+  ],
+  "dogs": []
+}
